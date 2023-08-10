@@ -1,0 +1,45 @@
+body,html{
+    font-family:"Borel";
+    Font-size:15px;
+    margin: auto;
+    background-color: rgb(60, 164, 233);
+    background-image:url(fundo.jpg);
+    background-size: cover;
+    color: #535353;
+    padding: 0.5rem;
+}
+#destaque{
+    
+    text-align: center;
+    color: whitesmoke;
+    height: 600px;
+}
+.item{
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 2%;
+}
+
+#produtos{
+    text-align: justify;
+    clear: both;
+}
+footer{
+    clear: both;
+    text-align: center;
+    
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+
